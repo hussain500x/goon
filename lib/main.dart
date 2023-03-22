@@ -6,7 +6,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Color.fromRGBO(215, 238, 234, 0.31),
         appBar: AppBar(
-          title: Text('hussajhhjin'),
+          title: Text('hussain'),
           backgroundColor: Color.fromRGBO(63, 151, 153, 1),
         ),
         body: Center(
