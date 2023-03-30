@@ -22,33 +22,59 @@ class MyApp extends StatelessWidget {
           mainAxisSpacing: 20,
           crossAxisCount: 2,
           children: <Widget>[
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/110.png'),
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage: AssetImage('images/110.png'),
+                ),
+                Text("Umm Al-Qura University"),
+              ],
             ),
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/111.png'),
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage: AssetImage('images/111.png'),
+                ),
+                Text("Düzce University"),
+              ],
             ),
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/116.png'),
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage: AssetImage('images/116.png'),
+                ),
+                Text("Cairo University"),
+              ],
             ),
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/117.png'),
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage: AssetImage('images/117.png'),
+                ),
+                Text("Seoul National University"),
+              ],
             ),
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/118.png'),
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage: AssetImage('images/118.png'),
+                ),
+                Text("University of South Florida"),
+              ],
             ),
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/123.png'),
-            ),
-            CircleAvatar(
-              radius: 1,
-              backgroundImage: AssetImage('images/110.png'),
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage: AssetImage('images/123.png'),
+                ),
+                Text("Queen’s University"),
+              ],
             ),
           ],
         )),
